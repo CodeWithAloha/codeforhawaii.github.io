@@ -4,3 +4,5 @@ _site
 .python-version
 .ruby-version
 .rbenv-gemsets
+
+.vagrant
