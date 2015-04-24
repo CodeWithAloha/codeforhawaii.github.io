@@ -7,6 +7,11 @@ Our website @ http://codeforhawaii.org
 
 - Clone this repo.
 
+There are two ways to install this website on your machine and help out with
+development. If you're concerned with polluting your environment with
+application libraries and have Virtualbox / Vagrant installed, then use
+Vagrant instructions, otherwise, use the Local instructions.
+
 ### Vagrant
 
 If you're on your development machine and want to use vagrant to isolate your
