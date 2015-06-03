@@ -380,6 +380,9 @@ body {
 .featured-event p {
   margin-bottom: 0;
 }
+.featured-event a:hover {
+  color: #29BFDF;
+}
 .featured-event--wrap {
   max-width: 940px;
   margin: 0 auto;
