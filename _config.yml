@@ -18,6 +18,8 @@ social:
     url: https://twitter.com/codeforhawaii
   - title: github
     url: https://github.com/codeforhawaii
+  - title: facebook
+    url: https://facebook.com/codeforhawaii
 
 # Build settings
 markdown: kramdown
