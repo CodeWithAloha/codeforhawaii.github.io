@@ -1,8 +1,8 @@
 # Site settings
-title: Code for Hawaii
+title: Code for Hawaii | Code for America Brigade
 email: info@codeforhawaii.org
 url: http://codeforhawaii.org
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Code for Hawaii is a Code for America Brigade.  We are volunteers interested in open data, open knowledge, civic apps, big data, data visualization, APIs and the application of technology to make our communities better.  We encourage civic engagement and collaboration with our local government."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
