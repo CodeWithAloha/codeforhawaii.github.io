@@ -4,6 +4,21 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Code for Hawaii" />
+    <meta property="og:url" content="http://www.codeforhawaii.org" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Code for Hawaii is a Code for America Brigade.  We are volunteers interested in open data, open knowledge, civic apps, big data, data visualization, APIs and the application of technology to make our communities better.  We encourage civic engagement and collaboration with our local government."/>
+    <meta property="og:image" content="http://www.codeforhawaii.org/img/codeforhawaii.jpg" />
+
+    <!-- Twitter Cart -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Code for Hawaii Homepage" />
+    <meta name="twitter:description" content="Code for Hawaii is a Code for America Brigade.  We are volunteers interested in open data, open knowledge, civic apps, big data, data visualization, APIs and the application of technology to make our communities better.  We encourage civic engagement and collaboration with our local government."/>
+    <meta name="twitter:url" content="http://www.codeforhawaii.org" />
+    <meta name="twitter:image" content="http://codeforhawaii.org/img/codeforhawaii.jpg" />
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
