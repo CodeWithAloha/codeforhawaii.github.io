@@ -1,7 +1,7 @@
 function getUpcomingEvents() {
     Date.prototype.MMMM_dd_AT = function() {
-    var monthNames = new Array("January", "February", "March", 
-        "April", "May", "June", "July", "August", "September", 
+    var monthNames = new Array("January", "February", "March",
+        "April", "May", "June", "July", "August", "September",
         "October", "November", "December");
        var mm = this.getMonth();
        var dd = this.getDate().toString();
@@ -31,6 +31,8 @@ function getUpcomingEvents() {
         'orderBy': 'startTime'});
 
       request.execute(function (resp) {
+        document.querySelector('.featured-event')
+          .classList.add('active');
         for (var i = 0; i < resp.items.length; i++) {
           var event = resp.items[i];
           var start = new Date(Date.parse(event.start.dateTime));

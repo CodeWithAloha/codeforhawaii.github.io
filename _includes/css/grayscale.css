@@ -376,6 +376,10 @@ body {
   right: 0px;
   background: rgba(0, 0, 0, 0.35);
   padding: 20px;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  opacity: 0;
 }
 .featured-event p {
   margin-bottom: 0;
@@ -387,4 +391,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
   text-align: center;
+}
+.featured-event.active {
+  opacity: 1;
 }
