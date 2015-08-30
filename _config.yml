@@ -30,6 +30,7 @@ gems:
   - jekyll-sitemap
 
 exclude:
+  - vendor
   - README.md
   - LICENSE.md
   - Vagrantfile
