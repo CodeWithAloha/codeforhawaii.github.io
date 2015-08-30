@@ -28,3 +28,10 @@ permalink: pretty
 
 gems:
   - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - Vagrantfile
+  - Gemfile
+  - .travis.yml
