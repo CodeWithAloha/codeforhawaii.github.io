@@ -8,11 +8,11 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.box_check_update = false
 
-  config.vm.define "hicapacity_vm"
-  config.vm.hostname = 'hicapacity.local'
+  config.vm.define "cfh_www_vm"
+  config.vm.hostname = 'cfh_www.local'
 
   config.vm.provider "virtualbox" do |vm|
-    vm.name = "hicapacity_vm"
+    vm.name = "cfh_www_vm"
   end
 
   config.vm.network "forwarded_port", guest: 4000, host: 4000, auto_correct: true
