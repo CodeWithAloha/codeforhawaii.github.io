@@ -1,4 +1,6 @@
+[![Build Status](https://travis-ci.org/CodeforHawaii/codeforhawaii.github.io.svg)](https://travis-ci.org/CodeforHawaii/codeforhawaii.github.io)
 [![Stories in Ready](https://badge.waffle.io/codeforhawaii/codeforhawaii.org.png?label=ready&title=Ready)](https://waffle.io/codeforhawaii/codeforhawaii.org)
+
 # Code for Hawaii Website
 
 Our website @ http://codeforhawaii.org
