@@ -14,3 +14,6 @@ env:
 branches:
   only:
     - master
+
+notifications:
+  webhooks: http://pm.codeforhawaii.org/projects/608eb112-a17b-410b-90d6-3bb482c0444b/status
