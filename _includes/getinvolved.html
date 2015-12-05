@@ -9,7 +9,7 @@
 
             <div class="col-md-4 portfolio-item">
                 <a href="http://data.codeforhawaii.org/">
-                    <img class="img-responsive" src="img/data-tables.png" alt="">
+                    <img class="img-responsive" src="img/data-tables.png" alt="Data tables screenshot">
                 </a>
                 <br>
                 <h3>
@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-4 portfolio-item">
                 <a href="http://chimecms.org/">
-                    <img class="img-responsive" src="img/chime.png" alt="">
+                    <img class="img-responsive" src="img/chime.png" alt="Chime screenshot">
                 </a>
                 <br>
                 <h3>
@@ -30,27 +30,26 @@
             </div>
             <div class="col-md-4 portfolio-item">
                 <a href="http://beta.uipa.org/">
-                <img class="img-responsive" src="img/uipa.png" alt="">
+                <img class="img-responsive" src="img/uipa.png" alt="UIPA.org screenshot">
                 </a>
                 <br>
                 <h3>
                     <a href="http://beta.uipa.org/">Sigmund / uipa.org<br><br></a>
                 </h3>
                 <p>A platform being designed to ease the process of requests to the State of Hawaii Office of Information.</p>
+            </div>
         </div>
-        </div>
-            <br>
-            <p>
-                If you have any questions, please don't hestitate to contact us<br/>
-                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </p>
-            <ul class="list-inline banner-social-buttons">
-                {% for network in site.social %}
-                <li>
-                    <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+        <br>
+        <p>
+            If you have any questions, please don't hestitate to contact us<br/>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+        <ul class="list-inline banner-social-buttons">
+            {% for network in site.social %}
+            <li>
+                <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </section>
