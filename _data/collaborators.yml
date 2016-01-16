@@ -17,6 +17,9 @@ signups:
  - name: Billy Meinke
    image: https://pbs.twimg.com/profile_images/681566847624282112/rhpwF_qw_400x400.jpg
    twitter: billymeinke
+ - name: Ryan Ozawa
+   image: https://pbs.twimg.com/profile_images/685525469811228672/oem5vzZo_400x400.png
+   twitter: hawaii
  - name: You
    image: /img/join_collab.png
    twitter: 
