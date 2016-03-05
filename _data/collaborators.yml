@@ -23,6 +23,10 @@ signups:
  - name: Kathleen Luschek
    image: https://pbs.twimg.com/profile_images/682701099569041408/cRCJgSHM.jpg
    twitter: KathleenLuschek
+ - name: Jake Anderson
+   image: 
+   twitter: jakea782
+   github_username: jakea782
  - name: You
    image: /img/join_collab.png
    twitter: 
