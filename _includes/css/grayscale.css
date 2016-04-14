@@ -139,11 +139,12 @@ a:focus {
     text-align: center;
     color: #fff;
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-blend-mode: darken;
 }
 
 .intro .intro-body {
