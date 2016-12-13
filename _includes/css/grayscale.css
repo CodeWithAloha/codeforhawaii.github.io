@@ -152,6 +152,12 @@ a:focus {
     vertical-align: middle;
 }
 
+.intro .intro-body img.logo {
+    width: 100%;
+    max-width: 640px;
+    filter: drop-shadow(0 0 10px #111111);
+}
+
 .intro .intro-body .brand-heading {
   font-size: 40px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.85);
