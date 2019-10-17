@@ -26,7 +26,7 @@ social:
 markdown: kramdown
 permalink: pretty
 
-gems:
+plugins:
   - jekyll-sitemap
 
 exclude:
