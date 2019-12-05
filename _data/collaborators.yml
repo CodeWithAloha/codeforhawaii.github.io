@@ -9,6 +9,8 @@ signups:
  - name: Bobby 
    image: http://www.codeforhawaii.org/img/bobbycarter.jpg
  - name: John Zhou
+   image: http://www.codeforhawaii.org/img/john.jpg
+   twitter: blind_profit
  - name: Suchandra Thapa
    image: https://pbs.twimg.com/profile_images/1208750135/n842210007_5031886_5212_400x400.jpg
    twitter: lostinthegrid
